@@ -1,0 +1,27 @@
+{
+    "headers": {
+        "tile": "Headers Schema",
+        "type": "object",
+        "properties": {
+            "Accept": {
+                "type": "string"
+            },
+            "Accept-Encoding": {
+                "type": "string"
+            },
+            "Cache-Control": {
+                "type": "string"
+            },
+            "Host": {
+                "type": "string"
+            },
+            "Postman-Token": {
+                "type": "string"
+            },
+            "User-Agent": {
+                "type": "string"
+            }
+        },
+        "required": ["Accept-Encoding", "Host", "User-Agent"]
+    }
+}

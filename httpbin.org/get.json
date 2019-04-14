@@ -1,0 +1,23 @@
+{
+    "get": {
+        "title": "httpbin.org/get",
+        "type": "object",
+        "properties": {
+            "args": {
+                "type": "object"
+            },
+            "origin": {
+                "type": "string",
+                "enum": ["109.87.74.160, 109.87.74.160"]
+            },
+            "headers": {
+                "$ref": "file:///C:/Users/User/go/src/github.com/Tempeny/api_test/headers/headers.json#/headers"
+            },
+            "url": {
+                "type": "string",
+                "enum": ["https://httpbin.org/get"]
+            }
+        },
+        "required": ["args", "origin", "url", "headers"]
+    }
+}
