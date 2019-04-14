@@ -22,6 +22,6 @@
                 "type": "string"
             }
         },
-        "required": ["Accept-Encoding", "Host", "User-Agent", "Postman-Token"]
+        "required": ["Accept-Encoding", "Host", "User-Agent"]
     }
 }
