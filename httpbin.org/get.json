@@ -11,7 +11,7 @@
                 "enum": ["109.87.74.160, 109.87.74.160"]
             },
             "headers": {
-                "$ref": "https://github.com/Tempeny/Api_testings/blob/master/headers/headers.json#/headers"
+                "$ref": "https://github.com/Tempeny/Api_testings/blob/master/headers/headers.json"
             },
             "url": {
                 "type": "string",
