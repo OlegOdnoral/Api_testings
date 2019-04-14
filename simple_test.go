@@ -21,7 +21,7 @@ func init() {
 }
 
 func TestSimpleGet(t *testing.T) {
-	const schema = `{"$ref": "file:///C:/Users/User/go/src/github.com/Tempeny/api_test/httpbin.org/get.json#/get"}`
+	const schema = `{"$ref": "https://github.com/Tempeny/Api_testings/blob/master/httpbin.org/get.json#/get"}`
 	test.SetHeader("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3760.0 Safari/537.36 Edg/75.0.126.").
 		Get("/get").
 		Expect(t).
